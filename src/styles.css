@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.item-container {
+  padding: 10px;
+  background-color: yellow;
+
+  margin: 10px;
+}
+
+
+.category-container{
+  display: flex;
+  justify-content: center;
+}
