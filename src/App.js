@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Travel Advisor</h1>
       <div className="category-container">
       {travelCategory.map((cat) => {
         return (
@@ -28,13 +28,22 @@ export default function App() {
       })}
       </div>
     
+        
       <div className="list-item">
       {travelList[selectedCategory].map((item) => {
           return (
+            <>
             <div className="" key={item.name}>
-              {item.name}
-
+            <img src={item.image} 
+                 className="img_style"
+                 alt="Image"  
+            />
+ 
+             <span>{item.name}</span> 
+            
+            
             </div>
+            </>
           )
         })
 
