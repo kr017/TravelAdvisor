@@ -22,3 +22,14 @@
   height: 100px;
   display: grid;
 }
+
+.main_div{
+  display: flex;
+  padding: 2%;
+}
+
+.main_div span{
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+}
