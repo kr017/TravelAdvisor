@@ -33,13 +33,13 @@ export default function App() {
       {travelList[selectedCategory].map((item) => {
           return (
             <>
-            <div className="" key={item.name}>
+            <div  key={item.name}>
+            <div className="main_div">
             <img src={item.image} 
                  className="img_style"
                  alt="Image"  
-            />
- 
-             <span>{item.name}</span> 
+            /><span>{item.name}</span> 
+            </div>  
             
             
             </div>
