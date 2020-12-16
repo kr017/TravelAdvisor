@@ -8,10 +8,17 @@
   background-color: yellow;
 
   margin: 10px;
+  cursor: pointer;
 }
 
 
 .category-container{
   display: flex;
   justify-content: center;
+}
+
+.img_style{
+  max-width: 100px;
+  height: 100px;
+  display: grid;
 }
