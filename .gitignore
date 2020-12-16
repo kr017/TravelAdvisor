@@ -1,0 +1,7 @@
+.DS_Store
+dist
+dist.esm
+node_modules
+perf/filesize/bundle.js
+
+yarn-error.log
