@@ -33,7 +33,7 @@ export default function App() {
       {travelList[selectedCategory].map((item) => {
           return (
             <>
-            <div  key={item.name}>
+            <div className="inner-div" key={item.name}>
             <div className="main_div">
             <img src={item.image} 
                  className="img_style"
