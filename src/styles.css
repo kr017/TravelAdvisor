@@ -3,14 +3,28 @@
   text-align: center;
 }
 
+body{
+  /* height: 3000px; */
+  background: #00b09b;  /* fallback for old browsers 
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(141deg, #96c93d 0%, #3CA55C 50%, #00b09b 75%);
+}
+
 .item-container {
   padding: 10px;
   background-color: yellow;
-
+  border-radius: 2rem;
+  border:1px solid blue;
   margin: 10px;
   cursor: pointer;
 }
 
+.inner-div{
+  border: 2px solid black;
+  /* border-radius: 2rem; */
+  /* padding: 2px; */
+  margin: 2px;
+}
 
 .category-container{
   display: flex;
@@ -26,6 +40,7 @@
 .main_div{
   display: flex;
   padding: 2%;
+  margin: 5px solid black;
 }
 
 .main_div span{
